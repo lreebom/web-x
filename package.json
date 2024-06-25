@@ -1,0 +1,30 @@
+{
+  "name": "@lreebom/web-x",
+  "version": "0.0.2",
+  "description": "Web X",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lreebom/web-x.git"
+  },
+  "main": "dist/index.js",
+  "license": "Apache",
+  "author": "liubo",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "npm-login": "npm login",
+    "npm-publish": "npm publish --access=public"
+  },
+  "keywords": [
+    "WebX",
+    "web-x",
+    "webx"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
