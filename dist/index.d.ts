@@ -1,3 +1,4 @@
 export * from "./event-trigger";
 import EventDispatcher from "./event-dispatcher";
-export { EventDispatcher };
+import * as Utility from "./utility";
+export { EventDispatcher, Utility };
